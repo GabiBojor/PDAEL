@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="pull-left">Test HTML5</div>
+			<div class="pull-right">PDAEL</div>
+		</header>
+		<main>
+			<form class="questionForm" id="q1" data-question="1">
+				<h3>1. HTML este acronim pentru</h3>
+				<ul>
+					<li><input name="q1" type="radio" value="a" />Hyper Text Markup Language</li>
+					<li><input name="q1" type="radio" value="b" />Home Tool Markup Language</li>
+					<li><input name="q1" type="radio" value="c" />Hyperlinks and Text Markup Language</li>
+					<li><input name="q1" type="radio" value="d" />High Tool Markup Language</li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+			
+			<form class="questionForm" id="q2" data-question="2">
+				<h3>2. Alege elementul HTML corect pentru cel mai mare titlu (heading): </h3>
+				<ul>
+					<li><input name="q2" type="radio" value="a" />&lt;head&gt;</li>
+					<li><input name="q2" type="radio" value="b" />&lt;h1&gt;</li>
+					<li><input name="q2" type="radio" value="c" />&lt;heading&gt;</li>
+					<li><input name="q2" type="radio" value="d" />&lt;h6&gt;</li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+			
+			<form class="questionForm" id="q3" data-question="3">
+				<h3>3. Care este elementul HTML corect pentru a trece pe rândul următor (line break)?</h3>
+				<ul>
+					<li><input name="q3" type="radio" value="a" />&lt;break&gt;</li>
+					<li><input name="q3" type="radio" value="b" />&lt;lb&gt;</li>
+					<li><input name="q3" type="radio" value="c" />&lt;br&gt;</li>
+					<li><input name="q3" type="radio" value="d" />&lt;b&gt;</li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+			
+			<form class="questionForm" id="q4" data-question="4">
+				<h3>4. Alege elementul HTML corect pentru a defini un text important:</h3>
+				<ul>
+					<li><input name="q4" type="radio" value="a" />&lt;b&gt;</li>
+					<li><input name="q4" type="radio" value="b" />&lt;important&gt;</li>
+					<li><input name="q4" type="radio" value="c" />&lt;i&gt;</li>
+					<li><input name="q4" type="radio" value="d" />&lt;strong&gt;</li>
+				</ul>
+				<button id="submit">Submit</button>
+			</form>
+			
+			<form class="questionForm" id="q5" data-question="5">
+				<h3>5. Care caracter este folosit pentru a indica finalul unui tag?</h3>
+				<ul>
+					<li><input name="q5" type="radio" value="a" />/</li>
+					<li><input name="q5" type="radio" value="b" />)</li>
+					<li><input name="q5" type="radio" value="c" /><</li>
+					<li><input name="q5" type="radio" value="d" />^</li>
+				</ul>
+				<button id="submit">Raspunde</button>
+			</form>
+			
+			<div id="results"></div>
+			<br>
+		</main>
+		<footer>
+			<div class="pull-left">Total: 5 Intrebari</div>
+			
+		</footer>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/quiz.js"></script>
+</body>
+</html>
